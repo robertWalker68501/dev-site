@@ -8,7 +8,6 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import MobileNav from '@/components/shared/nav/MobileNav';
 import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
-import { Button } from '@/components/ui/button';
 
 const Navbar = () => {
   const pathname = usePathname();

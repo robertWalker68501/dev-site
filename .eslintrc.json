@@ -1,7 +1,7 @@
 {
   "extends": ["next/core-web-vitals", "standard", "plugin:tailwindcss/recommended", "prettier"],
   "rules": {
-    "max-len": [2, 250],
+    "tailwindcss/no-custom-classname": "off",
     "no-multiple-empty-lines": [
       "error",
       {
